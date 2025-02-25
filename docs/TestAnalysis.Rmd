@@ -1,0 +1,36 @@
+---
+title: "Test Analysis"
+author: "Maria and ShaNiece"
+date: "2/24/2025"
+output: html_document
+---
+
+This Rmarkdown file will make a graph of the MaxTemp data. The code below is 
+tabbed so that it properly knits to the webpage. Make sure you remove the eval=FALSE!!
+
+```{r}
+  library(tidyverse)
+  library(Housing)
+  library(ggplot2)
+  library(dplyr)
+
+  # Filter for only January of each year
+  filtered_data <- HousingData %>%
+    filter(grepl("-01$", Month.of.Period.End) & !grepl("2025", Month.of.Period.End))    # Selects only rows where Month ends in "-01" (January)
+  
+  ggplot(filtered_data, aes(y = Inventory, x = Month.of.Period.End, color = Region, group = Region)) +
+    geom_point(size = 3, alpha = 0.7) +
+    geom_line(size = 1, alpha = 0.8) +
+    labs(
+      title = "Days on Market Trends for January of Each Year",
+      x = "Year",
+      y = "Days on Market",
+      color = "Region"
+    ) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5)) 
+
+
+```
+  
+We see that the amount of days a house stays on the market have a trend of decreasing for every region for the past few years.

@@ -1,0 +1,23 @@
+Package: HousingMarket
+Type: Package
+Title: Housing Market Trends for Different Metro Regions
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Maria", "Berg",
+      email = "mmb776@nau.edu.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "ShaNeice", "Twitty",
+      email = "slt362@nau.edu.com",
+      role = "aut"
+    )
+  )
+Description: This dataset tracks real estate market trends across multiple regions from 2012 to 2025, including metrics on home prices, sales activity, new listings, inventory, and market dynamics. It provides both absolute values and percentage changes to analyze short-term and long-term shifts in the housing market.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
