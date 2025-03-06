@@ -1,0 +1,100 @@
+﻿Label (Grouping),"Seattle city, Washington!!Estimate","Seattle city, Washington!!Margin of Error","Seattle city, Washington!!Percent","Seattle city, Washington!!Percent Margin of Error"
+SEX AND AGE,,,,
+    Total population,"755,081",±59,"755,081",(X)
+        Male,"391,315","±4,932",51.80%,±0.7
+        Female,"363,766","±4,931",48.20%,±0.7
+        Sex ratio (males per 100 females),107.6,±2.8,(X),(X)
+        Under 5 years,"31,115","±3,146",4.10%,±0.4
+        5 to 9 years,"31,909","±3,700",4.20%,±0.5
+        10 to 14 years,"27,462","±3,131",3.60%,±0.4
+        15 to 19 years,"38,401","±2,379",5.10%,±0.3
+        20 to 24 years,"57,759","±4,114",7.60%,±0.5
+        25 to 34 years,"182,055","±6,988",24.10%,±0.9
+        35 to 44 years,"132,733","±4,676",17.60%,±0.6
+        45 to 54 years,"90,244","±4,394",12.00%,±0.6
+        55 to 59 years,"33,793","±2,975",4.50%,±0.4
+        60 to 64 years,"32,323","±3,319",4.30%,±0.4
+        65 to 74 years,"57,331","±3,579",7.60%,±0.5
+        75 to 84 years,"29,517","±2,772",3.90%,±0.4
+        85 years and over,"10,439","±1,550",1.40%,±0.2
+        Median age (years),35.6,±0.6,(X),(X)
+        Under 18 years,"109,297","±5,966",14.50%,±0.8
+        16 years and over,"657,518","±5,685",87.10%,±0.8
+        18 years and over,"645,784","±5,969",85.50%,±0.8
+        21 years and over,"618,274","±5,999",81.90%,±0.8
+        62 years and over,"115,473","±4,699",15.30%,±0.6
+        65 years and over,"97,287","±4,775",12.90%,±0.6
+        18 years and over,"645,784","±5,969","645,784",(X)
+            Male,"334,248","±6,509",51.80%,±0.7
+            Female,"311,536","±4,778",48.20%,±0.7
+            Sex ratio (males per 100 females),107.3,±3.2,(X),(X)
+        65 years and over,"97,287","±4,775","97,287",(X)
+            Male,"44,848","±2,521",46.10%,±1.4
+            Female,"52,439","±3,015",53.90%,±1.4
+            Sex ratio (males per 100 females),85.5,±5.0,(X),(X)
+RACE,,,,
+    Total population,"755,081",±59,"755,081",(X)
+        One race,"661,168","±6,170",87.60%,±0.8
+        Two or More Races,"93,913","±6,170",12.40%,±0.8
+        One race,"661,168","±6,170",87.60%,±0.8
+            White,"453,805","±8,641",60.10%,±1.1
+            Black or African American,"48,782","±5,630",6.50%,±0.7
+            American Indian and Alaska Native,"4,240","±1,491",0.60%,±0.2
+                Aztec,N,N,N,N
+                Blackfeet Tribe of the Blackfeet Indian Reservation of Montana,N,N,N,N
+                Maya,N,N,N,N
+                Native Village of Barrow Inupiat Traditional Government,N,N,N,N
+                Navajo Nation,N,N,N,N
+                Nome Eskimo Community,N,N,N,N
+                Other American Indian and Alaska Native,N,N,N,N
+            Asian,"129,694","±7,032",17.20%,±0.9
+                Asian Indian,"27,585","±3,945",3.70%,±0.5
+                Chinese,"47,623","±5,565",6.30%,±0.7
+                Filipino,"12,097","±2,590",1.60%,±0.3
+                Japanese,"8,122","±2,028",1.10%,±0.3
+                Korean,"8,806","±2,025",1.20%,±0.3
+                Vietnamese,"11,369","±3,259",1.50%,±0.4
+                Other Asian,"14,092","±2,819",1.90%,±0.4
+            Native Hawaiian and Other Pacific Islander,"1,939","±1,085",0.30%,±0.1
+                Chamorro,"1,111",±985,0.10%,±0.1
+                Native Hawaiian,274,±291,0.00%,±0.1
+                Samoan,325,±218,0.00%,±0.1
+                Other Native Hawaiian and Other Pacific Islander,229,±333,0.00%,±0.1
+            Some Other Race,"22,708","±4,865",3.00%,±0.6
+        Two or More Races,"93,913","±6,170",12.40%,±0.8
+            White and Black or African American,"8,877","±1,995",1.20%,±0.3
+            White and American Indian and Alaska Native,"5,681","±1,303",0.80%,±0.2
+            White and Asian,"28,100","±2,886",3.70%,±0.4
+            White and Some Other Race,"34,040","±4,801",4.50%,±0.6
+            Black or African American and American Indian and Alaska Native,798,±593,0.10%,±0.1
+            Black or African American and Some Other Race,512,±468,0.10%,±0.1
+Race alone or in combination with one or more other races,,,,
+    Total population,"755,081",±59,"755,081",(X)
+        White,"540,979","±9,022",71.60%,±1.2
+        Black or African American,"66,228","±5,749",8.80%,±0.8
+        American Indian and Alaska Native,"16,363","±2,767",2.20%,±0.4
+        Asian,"166,599","±7,844",22.10%,±1.0
+        Native Hawaiian and Other Pacific Islander,"5,919","±1,635",0.80%,±0.2
+        Some Other Race,"64,080","±4,730",8.50%,±0.6
+HISPANIC OR LATINO AND RACE,,,,
+    Total population,"755,081",±59,"755,081",(X)
+        Hispanic or Latino (of any race),"65,988","±5,055",8.70%,±0.7
+            Mexican,"36,434","±4,874",4.80%,±0.6
+            Puerto Rican,"3,612","±1,344",0.50%,±0.2
+            Cuban,"2,668","±1,092",0.40%,±0.1
+            Other Hispanic or Latino,"23,274","±3,842",3.10%,±0.5
+        Not Hispanic or Latino,"689,093","±5,059",91.30%,±0.7
+            White alone,"443,258","±8,595",58.70%,±1.1
+            Black or African American alone,"47,773","±5,589",6.30%,±0.7
+            American Indian and Alaska Native alone,"2,179",±695,0.30%,±0.1
+            Asian alone,"128,533","±7,046",17.00%,±0.9
+            Native Hawaiian and Other Pacific Islander alone,"1,939","±1,085",0.30%,±0.1
+            Some Other Race alone,"4,419","±1,730",0.60%,±0.2
+            Two or More Races,"60,992","±4,072",8.10%,±0.5
+                Two races including Some Other Race,"11,134","±2,541",1.50%,±0.3
+"                Two races excluding Some Other Race, and three or more races","49,858","±3,509",6.60%,±0.5
+Total housing units,"400,166","±5,664",(X),(X)
+"CITIZEN, VOTING AGE POPULATION",,,,
+"    Citizen, 18 and over population","570,878","±8,855","570,878",(X)
+        Male,"293,115","±6,839",51.30%,±0.8
+        Female,"277,763","±5,457",48.70%,±0.8
