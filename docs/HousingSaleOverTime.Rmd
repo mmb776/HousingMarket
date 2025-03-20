@@ -17,7 +17,7 @@ ggplot(HousingMarket, aes(y = Median.Sale.Price, x = Month.of.Period.End, color 
     geom_point(size = 3, alpha = 0.7) +
     geom_line(size = 1, alpha = 0.8) +
     labs(
-      title = "Days on Market Trends for January of Each Year",
+      title = "Median Sale Price For Each Year",
       x = "Year",
       y = "Median Sale Price",
       color = "Region"
