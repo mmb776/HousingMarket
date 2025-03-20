@@ -1,12 +1,11 @@
 ---
-title: "Test Analysis"
+title: "HousingSaleOverTime"
 author: "Maria and ShaNiece"
 date: "2/24/2025"
 output: html_document
 ---
 
-This Rmarkdown file will make a graph of the MaxTemp data. The code below is 
-tabbed so that it properly knits to the webpage. Make sure you remove the eval=FALSE!!
+
 
 ```{r}
   library(Housing)
@@ -28,4 +27,4 @@ ggplot(HousingMarket, aes(y = Median.Sale.Price, x = Month.of.Period.End, color 
 
 ```
   
-We see that the amount of days a house stays on the market have a trend of decreasing for every region for the past few years.
+
