@@ -1,0 +1,48 @@
+---
+title: "HousingSaleOverTime"
+author: "Maria and ShaNiece"
+date: "2/24/2025"
+output: html_document
+---
+
+
+
+```{r}
+library(HousingMarket)
+library(ggplot2)
+library(dplyr)
+library(viridis)
+
+HousingMarket$Month.of.Period.End <- ym(HousingMarket$Month.of.Period.End)
+
+```
+
+```{r}
+
+ggplot(HousingMarket, aes(y = Median.Sale.Price, x = Month.of.Period.End, color = Region, group = Region)) +
+    geom_point(size = 2, alpha = 0.7) +
+    geom_line(size = 1, alpha = 0.8) +
+  scale_color_viridis_d(option = "C",begin =0.1, end = 0.9)+
+    labs(
+      title = "Median Sale Price For Each Year",
+      x = "Year",
+      y = "Median Sale Price",
+      color = "Region"
+    ) +
+  scale_x_date(date_labels = " %Y", date_breaks = "1 year")+
+  theme_classic()+
+    theme(plot.title = element_text(size = 15,hjust = 0.5, face = "bold"),
+          axis.text.x = element_text(size = 15, face = "bold"),
+          axis.text.y = element_text( size = 15, face = "bold"),
+          axis.title = element_text(size = 15, face = "bold"),
+          legend.text = element_text(size = 15),
+          legend.title = element_text(size = 15, face = "bold"),
+          legend.position = c(0.2, 0.8),
+          legend.background = element_blank(),
+          legend.box.background = element_rect(colour = "black")) 
+
+
+```
+  
+
+
